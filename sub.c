@@ -9,7 +9,7 @@
 
 void f_sub(stack_t **head, unsigned int counter)
 {
-	int sub, nodes;
+	int sus, nodes;
 	stack_t *aux;
 
 	aux = *head;
@@ -25,7 +25,7 @@ void f_sub(stack_t **head, unsigned int counter)
 	}
 	aux = *head;
 	sub = aux->next->n - aux->n;
-	aux->next->n = sub;
+	aux->next->n = sus;
 	*head = aux->next;
 	free(aux);
 }

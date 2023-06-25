@@ -2,7 +2,7 @@
 
 /**
  * f_pstr - prints the string from the top of stack,
- * 	followed by a new
+ * followed by a new
  * @head: stack head
  * @counter: line number
  * Return: void

@@ -5,7 +5,7 @@ bus_t bus = {NULL, NULL, NULL, 0};
 * main - interpreter function
 * @argc: argument count
 * @argv: monty file location
-* Return: 0 success
+* Return: 0
 */
 int main(int argc, char *argv[])
 {

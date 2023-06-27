@@ -1,11 +1,10 @@
 #include "monty.h"
-
 bus_t bus = {NULL, NULL, NULL, 0};
 /**
-* main - interpreter function
+* main - monty code interpreter
 * @argc: argument count
 * @argv: monty file location
-* Return: 0
+* Return: 0 on success
 */
 int main(int argc, char *argv[])
 {
@@ -42,5 +41,5 @@ int main(int argc, char *argv[])
 	}
 	free_stack(stack);
 	fclose(file);
-	return (0);
+return (0);
 }

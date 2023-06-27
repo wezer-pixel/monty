@@ -1,16 +1,14 @@
 #include "monty.h"
-
 /**
- *f_sub- subtraction
- *@counter: line_number
- *@head: stack head
- *Return: void
+  *f_sub - sustrat two elements in a stack
+  *@head: stack head
+  *@counter: line_number
+  *Return: void
  */
-
 void f_sub(stack_t **head, unsigned int counter)
 {
-	int sus, nodes;
 	stack_t *aux;
+	int sus, nodes;
 
 	aux = *head;
 	for (nodes = 0; aux != NULL; nodes++)

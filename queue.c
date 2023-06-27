@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
  * f_queue - prints the top
+ * @head: head node
  * @counter: line_number
- * @head: stack head
  * Return: void
-*/
+ */
 void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
@@ -15,12 +15,12 @@ void f_queue(stack_t **head, unsigned int counter)
 /**
  * addqueue - add node to the tail stack
  * @n: new_value
- * @head: head of the stack
+ * @head: head node
  * Return: void
 */
 void addqueue(stack_t **head, int n)
 {
-	stack_t *aux, *new_node;
+	stack_t *new_node, *aux;
 
 	aux = *head;
 	new_node = malloc(sizeof(stack_t));
